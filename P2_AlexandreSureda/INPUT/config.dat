@@ -1,0 +1,5 @@
+.TRUE.     # Print thermodynamic magnitudes
+1          # Delta iterations to measure thermodynamic magnitudes
+.TRUE.    # Time-positions of the particles (.xyz file)
+10       # Delta iterations to save the positions
+END

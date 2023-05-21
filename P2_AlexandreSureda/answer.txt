@@ -1,0 +1,22 @@
+!	Answers:
+!	Investigate what happens if you modify the value of the timestep.
+!	Is the total energy conserved? And the total momentum?
+! -----------------------------------------------------------------------------
+!	For the Velocity Verlet algorithm, for dt = 0.0001 to dt = 0.01 there are no significative
+!	diferences, total energy is conserved, an we get oscillating
+!	complementary solutions for the kinetic and the potential energy
+!	However, for dt = 0.1, we get little oscillations of the energy. The momentum is always conserverd.
+!	
+	For the Euler algorithm, for dt = 0.0001 the energy is conserved, from dt = 0.001 the solution begins to be unstable,
+	can be seen that de velocities and the distances between the particles increases at each time step, but the total 
+	momentum is conserved.
+
+	This is because the verlet algorithm is a sympletic integrator, which preserves the area of ​​the phase space at 
+	all times, making the Jacobian of the transformation of the area map equal to 1. The advantage of symplectic 
+	algorithms is that they possess global stability. 
+	Since the area bounded by adjacent trajectories is preserved, we can never have the situation that we saw
+	for the Euler algorithm earlier in the class, where the coordinates (and hence the energy)
+	increase without bound, because this would expand the area. Even in better non-symplectic
+	approximations, such as RK2 and RK4, the energy will deviate substantially from its initial
+	value at sufficiently long times.
+
