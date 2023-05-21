@@ -1,0 +1,8 @@
+.TRUE.     				# Print thermodynamic magnitudes
+100          				# Delta iterations to print thermodynamic magnitudes
+.FALSE.    				# Time-positions of the particles (.xyz file)
+1       				# Delta iterations to print the positions
+.TRUE.     				# Compute the radial distribution function
+10          				# Delta iterations to compute the Rad. Dist. Func
+0.01         				# Precision for the radial distribution function (reduced units)
+END
