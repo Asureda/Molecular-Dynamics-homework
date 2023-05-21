@@ -1,0 +1,14 @@
+125          			# Number of particles (x^3 *4 ; with x natural and positive)
+0.8442         			# Density (reduced units)
+1           			# Equilibration run time (reduced units)
+0.0001       			# Time step equilibration (reduced units)
+5           			# Production run time (reduced units)
+0.001       			# Time step production (reduced units)
+2.64        			# Sigma of the gas (Angstroms)
+0.045439     			# Epsilon of the gas (kJ/mol)
+4.0026       			# Mass (g/mol)
+.FALSE.       			# To add a thermostat
+1000          			# If true, temperature of the thermostat (reduced units)
+0.728	     			# Temperature
+.TRUE.	     			# PBC	
+END
