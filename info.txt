@@ -1,0 +1,6 @@
+MB_velocityDistribution : distribution of velocities calculated from Fortran
+velocity_old : velocities at the inital of the simulation
+velocity_new : velocities at the final of the simulation
+TP_red_equil : T,P from the equilibration process (just for seeing that the Andersern thermo works!)
+thermodynamics : KE,V,E,T,P from the production run
+stats : mean and standard deviation from the production run
